@@ -1,0 +1,114 @@
+.main{
+    overflow: hidden;
+}
+.Fuelcard{
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.card_1,.card_2{
+    width: 300px;
+    float: left;
+}
+
+.Fuelcard li{
+    font-size: 18px;
+    color:#646464;
+    line-height: 50px;
+}
+.card_1 .cardheard{
+    width: 300px;
+    height: 96px;
+    background: url(../images/card/card1.png);
+    color:#fff;
+    font:30px "微软雅黑";
+    line-height: 74px;
+    margin-bottom: 30px;
+}
+.Fuelcard li span{
+    font:24px "宋体";
+    color: #B51616;
+}
+.Fuelcard li a{
+    width: 300px;
+    background: #FE4E56;
+    display: block;
+    color: #fff;
+    font: 24px "宋体";
+    padding:5px 0;
+    margin-top: 30px;
+}
+.card_2 .cardheard{
+    width: 300px;
+    height: 96px;
+    background: url(../images/card/card2.png);
+    color:#fff;
+    font:30px "微软雅黑";
+    line-height: 74px;
+    margin-bottom: 30px;
+}
+.card_2{
+    float: right;
+}
+
+/*油卡购买记录*/
+.jiaoyijilu table tr th {
+    color: #BE8848;
+}
+.chaxun{
+    width: 790px;
+}
+.chaxunbtn{
+    position: relative;
+}
+.chaxunbtn input{
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    width: 80px;
+    background: #0697da;
+    border-radius: 5px;
+}
+.chaxunbtn i{
+    display: inline-block;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top:8px;
+    left: 64px;
+    background:url(../images/card/cc.png) no-repeat 0 0;
+}
+.detail{
+    float: left;
+}
+.chaxun ul li {
+     margin-left: 0;
+    float: left;
+     width:100%;
+}
+.detail span{
+    display: inline-block;
+    width:194px;
+    font:14px "宋体";
+    color:#909090;
+    line-height: 40px;
+}
+.detail ul{
+    display: none;
+}
+.detail .ul1{
+    /*display: block;*/
+    
+}
+/*加载部分*/
+.loading {
+    display: none;
+    z-index: 99;
+    /*style="/!*display:none;*!/z-index: 100;"*/
+}
+.dianji li{
+    float: left;
+}
